@@ -10,6 +10,8 @@
     "bower_components",
     "test",
     "tests",
-    "examples"
+    "examples",
+    "LICENSE",
+    "README.md"
   ]
 }
