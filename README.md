@@ -1,5 +1,8 @@
+## smart-button
+Buttons sensitive to focus/unfocus events with icon/text/both.
+
 ## Installation
 
 ```bash
-$ bower install smart-components/smart-button
+$ bower install gaia-components/smart-button
 ```
