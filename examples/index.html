@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Smart Button Demo</title>
-  <meta name="description" content="Demo app for smart-button" />
+  <title>fxos-tv-button Demo</title>
+  <meta name="description" content="Demo app for fxos-tv-button" />
   <style type="text/css">
     html,
     body {
@@ -13,15 +13,15 @@
       background-color: gray;
     }
 
-    #test-smart-button {
+    #test-fxos-tv-button {
       background-image: url('test-icon.png');
     }
 
-    #test-smart-button.focused {
+    #test-fxos-tv-button.focused {
       background-image: url('test-icon_s.png');
     }
 
-    #test-smart-button.pressed {
+    #test-fxos-tv-button.pressed {
       background-image: url('test-icon_p.png');
     }
 
@@ -34,14 +34,14 @@
   <script src="../script.js" type="text/javascript"></script>
 </head>
 <body role="application">
-  <smart-button id="test-smart-button"></smart-button><br />
-  <smart-button type="simple-text" id="test-simple-text-button">Test Simple Text Button</smart-button><br />
-  <smart-button type="app-button" app-type="tv" label="Channel 79" id="test-app-button"></smart-button>
-  <smart-button type="banner-button" label="Mozilla Firefox" id="test-banner-button"></smart-button>
-  <smart-button type="circle-text" label="Cancel">Cancel</smart-button>
-  <smart-button type="circle-text" label="Delete" class="danger">Delete</smart-button>
-  <smart-button type="circle-text" label="OK" class="primary">OK</smart-button>
-  <smart-button type="rounded-corner-text">Sign In</smart-button>
-  <smart-button type="rounded-corner-text" class="primary">Next</smart-button>
+  <fxos-tv-button id="test-fxos-tv-button"></fxos-tv-button><br />
+  <fxos-tv-button type="simple-text" id="test-simple-text-button">Test Simple Text Button</fxos-tv-button><br />
+  <fxos-tv-button type="app-button" app-type="tv" label="Channel 79" id="test-app-button"></fxos-tv-button>
+  <fxos-tv-button type="banner-button" label="Mozilla Firefox" id="test-banner-button"></fxos-tv-button>
+  <fxos-tv-button type="circle-text" label="Cancel">Cancel</fxos-tv-button>
+  <fxos-tv-button type="circle-text" label="Delete" class="danger">Delete</fxos-tv-button>
+  <fxos-tv-button type="circle-text" label="OK" class="primary">OK</fxos-tv-button>
+  <fxos-tv-button type="rounded-corner-text">Sign In</fxos-tv-button>
+  <fxos-tv-button type="rounded-corner-text" class="primary">Next</fxos-tv-button>
 </body>
 </html>

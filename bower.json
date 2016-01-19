@@ -1,7 +1,7 @@
 {
-  "name": "smart-button",
+  "name": "fxos-tv-button",
   "version": "0.0.3",
-  "homepage": "https://github.com/gaia-components/smart-button",
+  "homepage": "https://github.com/fxos-components/fxos-tv-button",
   "main": "script.js",
   "license": "MPL",
   "ignore": [
