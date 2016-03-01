@@ -1,6 +1,6 @@
 {
   "name": "fxos-tv-button",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "homepage": "https://github.com/fxos-components/fxos-tv-button",
   "main": "script.js",
   "license": "MPL",
